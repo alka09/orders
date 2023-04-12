@@ -13,7 +13,7 @@ $config = [
     ],
     'modules' => [
         'orders' => [
-            'class' => 'app\modules\orders',
+            'class' => 'app\modules\orders\Orders',
         ],
     ],
     'components' => [
@@ -51,6 +51,7 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+//                '<module:order>/<action:(index)>' => '<module>/default/<action>'
             ],
         ],
     ],
