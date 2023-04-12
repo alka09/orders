@@ -2,10 +2,10 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use app\models\Status;
+use app\modules\orders\models\Status;
 
 /** @var yii\web\View $this */
-/** @var app\models\Orders $model */
+/** @var app\modules\orders\models\Orders $model */
 /** @var yii\widgets\ActiveForm $form */
 /** @var app\modules\orders\models\Status $statusModel*/
 ?>

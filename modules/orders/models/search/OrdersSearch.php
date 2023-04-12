@@ -4,7 +4,7 @@ namespace app\modules\orders\models\search;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Orders;
+use app\modules\orders\models\Orders;
 use yii\db\ActiveQuery;
 
 /**

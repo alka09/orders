@@ -1,6 +1,6 @@
 <?php
 
-use app\models\Orders;
+use app\modules\orders\models\Orders;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
@@ -42,7 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
             [
                 'attribute' => 'status_id',
                 'filter' => false,
-],
+            ],
             [
                 'class' => ActionColumn::className(),
                 'urlCreator' => function($action, Orders $model, $key, $index, $column) {

@@ -1,22 +1,28 @@
 <?php
 
-namespace app\modules\orders\ccontrollers\controllers;
-
+namespace app\modules\orders\controllers;
 
 use app\modules\orders\models\Orders;
 use app\modules\orders\models\search\OrdersSearch;
-use yii\behaviors\TimestampBehavior;
-use yii\db\ActiveRecord;
+use yii\base\BaseObject;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\web\Response;
 
-
 /**
- * OrdersController implements the CRUD actions for Orders model.
+ * Default controller for the `orders` module
  */
-class OrdersController extends Controller
+class DefaultController extends Controller
 {
+//    /**
+//     * Renders the index view for the module
+//     * @return string
+//     */
+//    public function actionIndex()
+//    {
+//        return $this->render('index');
+//    }
+
     /**
      * Lists all Orders models.
      *
